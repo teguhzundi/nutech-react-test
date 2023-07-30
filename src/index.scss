@@ -1,0 +1,19 @@
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+}
+
+html,
+body,
+#root,
+.ant-app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
