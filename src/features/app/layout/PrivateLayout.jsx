@@ -40,8 +40,9 @@ const PrivateLayout = () => {
               title="Konfirmasi"
               description="Yakin akan keluar ?"
               okText="Ya"
-              cancelText="Tidak">
-              <Button onClick={handleLogout} type="primary" size="small" icon={<LogoutOutlined />}>
+              cancelText="Tidak"
+              onConfirm={handleLogout}>
+              <Button type="primary" size="small" icon={<LogoutOutlined />}>
                 Logout
               </Button>
             </Popconfirm>
